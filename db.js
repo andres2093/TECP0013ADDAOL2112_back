@@ -1,9 +1,9 @@
 const { Sequelize } = require('sequelize');
 
 // Importing models
-const Product = require('./models/Product');
-const Review = require('./models/Review');
-const User = require('./models/User');
+const Product = require('./models/product');
+const Review = require('./models/review');
+const User = require('./models/user');
 
 // Database connection
 const sequelize = new Sequelize(process.env.DB_DATABASE, process.env.DB_USER, process.env.DB_PASSWORD, {
